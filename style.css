@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+main{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  
+}
+
+.header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    
+}
+
+
+
+.header h1{
+    font-size: 3rem;
+    
+    
+}
+
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: lightblue;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: blue;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    cursor: pointer;
+  }
+
+.mainTitle {
+
+    height: 6rem;
+    color: gray;
+
+}
+
+.mainTitle h1{
+    font-size: 3rem;
+
+}
+
+.slidecontainer{
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    color: gray;
+    
+}
+
+.slidecontainer h2{
+    font-size: 1.5rem;
+}
+
+.slidecontainer span{
+    margin-bottom: 1rem ;
+    font-size: 1.5rem;
+    
+}
+
+.slider{
+
+    width: 60%;
+    margin: auto;
+}
+
+.middle-container{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgray;
+    padding: 2rem;
+    border-radius: 5px;
+
+    
+
+
+}
+
+.middle-container select{
+
+    border: none;
+    padding: .18rem;
+ 
+}
+
+.middle-container h2{
+
+    height: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    color: gray;
+    
+}
+
+.middle-container div{
+
+    padding-bottom: .5rem;
+ 
+
+}
+
+.alert{
+    color: red;
+    display: none;
+   
+}
+
+.middle-container div input{
+
+    border: none;
+    padding: .2rem;
+    border-radius: 5px;
+  
+
+}
+
+
+#hora{
+
+    width: 5rem;
+    border-radius: 5px;
+    
+}
+
+#calculate-Botton{
+
+    background-color: lightblue;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding: .5rem;
+    font-weight: 500;
+ 
+
+   
+  
+
+
+
+}
+
+#minuto{
+
+    width: 5rem;
+
+
+}
+
+.middle-container-2{
+
+    display: flex;
+    background: white;
+
+
+}
+
+.respuesta-containerrrrr h2{
+
+    color: gray;
+
+    
+}
+
+
+.hora-levantar{
+
+    background-color: aquamarine;
+
+}
+
+.respuesta-container{
+
+    
+    background: lightblue;
+    display: flex;
+
+    margin-top: 1rem;
+
+
+    
+}
+
+.respuesta-containerrrrr{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  
+    background-color: lightblue;
+    padding: 1rem;
+
+    margin-top: 1rem;
+
+    border-radius: 5px;
+
+  
+
+
+   
+
+}
+
+
+
+.respuesta-container-small{
+
+    padding: 1rem;
+    background-color: #f1f1f1;
+
+    border: 2px solid;
+    border-radius: 5px;
+    margin: .2rem;
+
+    color: gray;
+
+    
+
+}
+
+.verde{
+
+    border-color: green;
+
+}
+
+.amarillo{
+
+    border-color: yellow;
+
+}
+
+.rojo{
+
+    border-color: red;
+}
+
+
+footer{
+
+    background: lightblue;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+    position: fixed;
+
+    
+    
+ 
+}
+
+.text-container{
+padding-top: 2%;
+width: 80%;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 5rem;
+margin-top: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    main{
+
+        width: 100%;
+   
+        font-size: 14px;
+        height: auto;
+
+       
+
+        
+    }
+
+    .mainTitle{
+
+        text-align: center;
+        
+        height: auto;
+     
+
+        border-bottom: 2px solid ;
+        border-color: lightblue;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+
+
+   
+   
+  }
+
+
+
+
+
+

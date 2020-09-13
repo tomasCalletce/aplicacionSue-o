@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>ZzzApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/tomas/index.js"></script>
+</head>
+
+<body>
+
+
+
+
+    <main>
+
+        <div class="mainTitle">
+            <h1>Calcula tu hora ideal para Dormir?</h1>
+        </div>
+
+        <div class="slidecontainer">
+
+            <h2>Cual es tu Edad?</h2><span id="edad-span">35</span>
+
+            <input onclick="slider()" type="range" min="5" max="65" value="35" class="slider" id="myRange">
+
+        </div>
+
+        <p class="alert">Primero cuentanos tu edad 🔝</p>
+        <div class="middle-container">
+
+            <h2>A que horas te levantas?</h2>
+
+            <div>
+
+                <input type="number" id="hora">
+                <input type="number" id="minuto">
+                <select id="tipoDeHora">
+                    <option value="am">am</option>
+                    <option value="pm">pm</option>
+                </select>
+
+            </div>
+
+            <button id="calculate-Botton" onclick="calculateSleep()">Calculate</button>
+
+
+        </div>
+
+
+
+
+
+        <div class="respuesta-containerrrrr">
+
+            <h2 class="">Tu mejor hora para dormir es</h2>
+
+            <div class="respuesta-container">
+
+
+
+
+
+                <div class="respuesta-container-small verde" id="respuesta1">0:00</div>
+                <div class="respuesta-container-small verde" id="respuesta2">0:00</div>
+                <div class="respuesta-container-small amarillo" id="respuesta3">0:00</div>
+                <div class="respuesta-container-small rojo" id="respuesta4">0:00</div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <div class="text-container">
+
+<strong>¿Por qué te debería importar?</strong>
+<br>
+
+ El sueño es fundamental para la salud ya que produce químicos en el cerebro tales como la Hormona de Crecimiento que es indispensable para los niños en su desarrollo. Cuando uno duerme, el cerebro entra en un estado de limpieza o de mantenimiento, donde potencializa las conexiones neuronales fortaleciendo las espinas dendríticas pero también elimina contenido que no es relevante. Más que nunca, el ser humano debe dormir bien por la cantidad de información que consumimos <br>(consumimos más información en un día, que la gente en el 1400 consumía en una vida entera). <br>
+ <br>
+<h4> ¿No te pasa a veces que no piensas claramente cuando no duermes bien?</h4><br>
+
+Ésto es porque el cerebro no ha tenido ese “mantenimiento” que hace que cada día puedas aprender más. <br>
+Cada vez estamos digiriendo más y más información(ya sea en redes sociales, artículos, videos, etc.), y si no dormimos correctamente, el cerebro no podrá almacenar todo en la memoria a largo plazo las conexiones neuronales se debilitan. <br>
+<br>
+El sueño de cada persona es dividido en ciclos de 90 minutos y lo ideal es cumplir de 4-5 ciclos de sueño. En este test, lo que esta con los bordes verdes cumplirian con 4-5 ciclos, el amarillo cumpliría 3 ciclos y el rojo cumple 2. Aunque la gente debe de pensar que en la noche, el cerebro descansa, de hecho, el consumo de oxígeno y el flujo sanguíneo cerebral, se incrementa debido a sus múltiples funciones nombradas anteriormente. En este “test” también se toma en cuenta la edad de la persona para calcular cuántas horas de sueño son necesarias. Esto es debido a que los niños necesitan dormir más por la producción de la hormona de crecimiento en el sueño.  <br>
+<br>
+Es más que claro que dormir es una actividad necesaria ya que no solo mejora tu capacidad de aprender, memorizar, crecer, sino que también reduce la depresión gracias a la producción de serotonina y melatonina(hormonas contrarrestan los efectos de las hormonas del estrés) que relaja el cuerpo. <br>
+<br>
+Por lo tanto, un buen sueño es indispensable y es bueno ir generando estos buenos hábitos para poder sacarle provecho al sueño en vez de pensar que es una “pérdida de tiempo”. <br>
+<br>
+    </div>
+
+
+
+    <footer>
+        <span>porcolombiayo@gmail.com</span>
+
+        </span>echo con ♥️ por el equipo PorColombia</span>
+    </footer>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
